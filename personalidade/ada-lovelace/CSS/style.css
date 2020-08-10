@@ -63,6 +63,7 @@ li {
   padding: 1rem 3rem;
   border-radius: 5px;
   font-size: 1.8rem;
+  background-color: #674582;
 }
 
 .btn_roxo {
@@ -164,7 +165,9 @@ li {
 }
 
 .navegacao__redes-sociais a {
-  margin: 0 1rem;
+  margin: 0 1px;
+  
+  
 }
 
 
@@ -342,6 +345,7 @@ li {
 .titulo-bafao{
     text-align: center;
     font-size: 36px;
+    margin: 45px;
 }
 
 .img_text_persona{
@@ -396,6 +400,8 @@ li {
 .img_persona_history{
     width: 100%;
     max-width: 250px;
+    margin: 21px;
+    -webkit-font-smoothing: antialiased;
 }
 
 .caixa-lilas{
@@ -433,22 +439,36 @@ li {
   color: white;
 }
 
-.btn{
-  
-}
+
 
 
 /*** MEDIA QUERIES ***/
 /* TABLET */
 
-@media screen and (max-width:5000px){
+ @media only screen and (min-width: 320px){
+  .img_persona{
+    width: 100%;
+    max-width: 100px;
+    min-width: 196px;
+    min-height: 137px;
+    height: 100%;
+      
+  }
+  .img_text_persona{
+    margin: 10px;
+    padding: 2px;
+  }
+
+}
+
+ @media screen and (max-width:5000px){
 
   .header{
     min-height: 30vh;
     text-align: center;
     padding: 5rem 10rem; 
 
-  }
+  } 
 
   .navegacao__itens {
     position: static;
@@ -465,5 +485,8 @@ li {
   margin: 15px;
 }
 }
+
+ 
+
 
 
