@@ -8,6 +8,15 @@ width: %
 max-width: % ou px
 */
 
+*,
+*:before,
+*:after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 * {
     box-sizing: border-box;
 }
@@ -343,15 +352,17 @@ li {
 }
 
 .img_persona{
-    width: 285px;
+    width: 100%;
+    max-width: 300px;
     padding: 1rem;
     border-radius: 3rem;
 }
 
 .text_persona{
-    padding-left: 2rem;
+    padding-left: 3rem;
     margin-right: 3rem;
-    font-size: 13px;
+    font-size: 12px;
+    word-spacing: 1px;
 }
 
 .ada_quote{
@@ -373,8 +384,18 @@ li {
     align-items: center;
 }
 
+.historia__paragrafo{
+    font-size: 13px;
+    margin: 0 auto;
+    padding: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 .img_persona_history{
-    width: 440px;
+    width: 100%;
+    max-width: 250px;
 }
 
 .caixa-lilas{
